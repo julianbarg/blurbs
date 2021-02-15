@@ -1,6 +1,12 @@
 \documentclass{article}
 
-\usepackage[natbibapa]{apacite}
+% \usepackage[natbibapa]{apacite}
+\usepackage{color,soul}
+\usepackage{todonotes}
+\usepackage[natbib=true, style=apa]{biblatex}
+\addbibresource{bibliography.bib}
+% I don't undertand why, but thise line allows using  \citet insight of \hl
+\soulregister\citet7
 
 \title{Ecocentrism vs. Environmental Management}
 \author{Julian Barg}
@@ -12,12 +18,21 @@
 
 	Definitions attain importance in research because they shape the research that takes place after the introduction section. Things may be assumed away, and a definition can determine the direction of a research project. Unsurprisingly, the definition of sustainable development by the WCED, which has slowly come to be the universal definition of sustainability, is still contested. On the one hand, the WCED definition is widely used as a working definition. On the other hand, the WCED definition is criticized by many as putting too much focus on economic \textit{development} for resolving current and future distributive and environmental problems \citep[e.g.,][6f.]{Constanza2014a}.
 
-	This blurb introduces the discourse on the WCED definition and what assumptions it introduces to research. It covers on the one hand research in business journals that apply the definition. These articles have in common that they turn to businesses and their policy decisions for potential solutions to common environmental or social problems. On the other hand, there is a critical discourse on sustainable development that explicitly discusses the inherent assumptions and looks more widely for solutions. This critical discourse maintains that action by businesses is and will remain insufficient, and our current inaction outside the business realm will be costly \citep[e.g.,][]{Banerjee2003}.
+	This blurb introduces the discourse on the WCED definition and what assumptions it introduces to research. It covers on the one hand research in business journals that apply the definition. These articles have in common that they turn to businesses and their policy decisions for potential solutions to common environmental or social problems. On the other hand, there is a critical discourse on sustainable development that explicitly discusses the inherent assumptions and looks more widely for solutions. This critical \todo{Avoid label "critical" for its connotations?} discourse maintains that action by businesses is and will remain insufficient, and our current inaction outside the business realm will be costly in environmental and economic terms \citep[e.g.,][]{Banerjee2003}.
 
-	The discourse is driven by competing assumptions on corporations as agentic actors for change.
+	The discourse is driven by competing assumptions on the ability for corporations to act as agentic actors for change. \hl{Add "third way" implications similar to \citet{Giddens1979}}.	
+
+	\subsection*{Terminology and Definition}
+
+	A range of terms have emerged to describe the different takes on sustainability. For the critical stream, there is "ecocentrism" \citep{Purser1995}, "deep ecology" \citep{Newton2002}, the New Ecological Paradigm ({\citealp{Catton1980} via \citealp{Hoffman2015}) or even "ecofascism" \citep{Newton2002}. For the mainstream take there are "environmental management" \citep{Purser1995}, "corporate sustainability" \citep{Ergene2020} and simply "sustainable development" \citep{Springett2003}. Note that in these citations, the labels represent attribution by the critical camp. Mainstream work also picks up terms such as "corporate sustainability"--albeit not as labels to differentiate a mainstream take from the critical take.
+
+	An authors use of the WCED definition of sustainability is more useful as a benchmark, as it represents a deliberate decision that differentiates the two camps. The mainstream work on sustainability use the label and embrace related language.
+
+	\subsection*{Environmental Management}
+
+	% \citep{Milne2006}
 
 	\clearpage
-	\bibliography{bibliography}
-	\bibliographystyle{apacite}
+	\printbibliography
 
 \end{document}
