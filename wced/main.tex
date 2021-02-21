@@ -3,10 +3,13 @@
 % \usepackage[natbibapa]{apacite}
 \usepackage{color,soul}
 \usepackage{todonotes}
+\usepackage[breaklinks=true]{hyperref}
 \usepackage[natbib=true, style=apa]{biblatex}
 \addbibresource{bibliography.bib}
-% I don't undertand why, but thise line allows using  \citet insight of \hl
+% I don't undertand why, but thise line allows usingh \citet inside of \hl
 \soulregister\citet7
+
+\sloppy
 
 \title{Ecocentrism vs. Environmental Management}
 \author{Julian Barg}
@@ -16,21 +19,47 @@
 
 	What is sustainable? What is sustainability? There are some formulaic definitions that are widely accepted, including the dogmatic definition that "[s]ustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs" \citep[IV]{WCED1987}. But if you ask two sustainability scholars to define sustainability in their own terms, chances are you are still going to get very different answers. Potentially including the ubiquitous phrase "I know it when I see it" \citep{White2013}. All that is not to criticize sustainability scholarship. It is the nature of the beast of dealing with complex systems--such as our planet--that things are difficult to nail down.
 
-	Definitions attain importance in research because they shape the research that takes place after the introduction section. Things may be assumed away, and a definition can determine the direction of a research project. Unsurprisingly, the definition of sustainable development by the WCED, which has slowly come to be the universal definition of sustainability, is still contested. On the one hand, the WCED definition is widely used as a working definition. On the other hand, the WCED definition is criticized by many as putting too much focus on economic \textit{development} for resolving current and future distributive and environmental problems \citep[e.g.,][6f.]{Constanza2014a}.
+	Definitions attain importance in research because they shape the research that takes place after the introduction section. Things may be assumed away, and a definition can determine the direction of a research project. The definition of sustainable development by the WCED--despite being the most widely used definition of sustainability by far--is still contested. On the one hand, the WCED definition is widely used as a working definition. On the other hand, the WCED definition is criticized for putting too much focus on economic \textit{development} for resolving current and future distributive and environmental problems \citep[e.g.,][6f.]{Constanza2014a}.
 
-	This blurb introduces the discourse on the WCED definition and what assumptions it introduces to research. It covers on the one hand research in business journals that apply the definition. These articles have in common that they turn to businesses and their policy decisions for potential solutions to common environmental or social problems. On the other hand, there is a critical discourse on sustainable development that explicitly discusses the inherent assumptions and looks more widely for solutions. This critical \todo{Avoid label "critical" for its connotations?} discourse maintains that action by businesses is and will remain insufficient, and our current inaction outside the business realm will be costly in environmental and economic terms \citep[e.g.,][]{Banerjee2003}.
+	This blurb introduces the discourse on the WCED definition and what assumptions it introduces to research. It covers on the one hand research in business journals that apply the definition. These articles have in common that they turn to businesses and their policy decisions for potential solutions to common environmental or social problems. On the other hand, there is a critical 
+	\todo{Avoid label "critical" for its connotations?} 
+	discourse on sustainable development that explicitly discusses the inherent assumptions and typically rejects the notions that companies are suitable agents that can be relied on for change \citep[e.g.,][]{Banerjee2003}.
+	% This critical  discourse maintains that action by businesses is and will remain insufficient, and our current inaction outside the business realm will be costly in environmental and economic terms.
 
-	The discourse is driven by competing assumptions on the ability for corporations to act as agentic actors for change. \hl{Add "third way" implications similar to \citet{Giddens1979}}.	
+	The discourse is driven by competing assumptions on the ability for corporations to act as agentic actors for change. 
+	\begin{itemize}
+		\item \hl{Add "third way" implications similar to \citet{Giddens1979}}.	
+		\item Actually in some sense, this directly parallels Gidden's comments on structure vs. agency--e.g., \citet{Heikkurinen2019}.
+		\item the "third way" is actually the extant literature I have extracted before--\url{http://wiki.jbarg.net/Constructivism%20%26%20Ecology.md#environmental-science-stream}
+	\end{itemize}
 
 	\subsection*{Terminology and Definition}
 
-	A range of terms have emerged to describe the different takes on sustainability. For the critical stream, there is "ecocentrism" \citep{Purser1995}, "deep ecology" \citep{Newton2002}, the New Ecological Paradigm ({\citealp{Catton1980} via \citealp{Hoffman2015}) or even "ecofascism" \citep{Newton2002}. For the mainstream take there are "environmental management" \citep{Purser1995}, "corporate sustainability" \citep{Ergene2020} and simply "sustainable development" \citep{Springett2003}. Note that in these citations, the labels represent attribution by the critical camp. Mainstream work also picks up terms such as "corporate sustainability"--albeit not as labels to differentiate a mainstream take from the critical take.
+	A range of terms have emerged to describe the different takes on sustainability. For the critical stream, there is ecocentrism \citep{Purser1995}, deep ecology \citep{Newton2002}, the New Ecological Paradigm ({\citealp{Catton1980} via \citealp{Hoffman2015}), critical epistemologies \citep{Ergene2020} or even ecofascism \citep{Newton2002}. For the "non-critical"\footnote{For the lack of a better word. It should be acknowledged that these authors themselves are also critical of an orthodox works such as \citet{Friedman1962}.} stream there are environmental management \citep{Purser1995}, corporate sustainability \citep{Hahn2014}, eco-modernism \citep{Springett2003}, and managerial epistemologies \citep{Ergene2020}. For the purpose of this work, I will adopt the terms ecocentrism and environmental management respectiely \citep{Purser1995}.
+	% Note that in these citations, the labels represent attribution by the critical camp. Mainstream work also picks up terms such as "corporate sustainability", albeit "uncritical"--not as labels to describe themselves or differentiate a mainstream take from the critical take.
 
-	An authors use of the WCED definition of sustainability is more useful as a benchmark, as it represents a deliberate decision that differentiates the two camps. The mainstream work on sustainability use the label and embrace related language.
+	% An authors use of the WCED definition of sustainability is more useful as a benchmark, as it represents a deliberate choice by the author that differentiates the two camps. The mainstream work on sustainability routinely uses the definition and adopt the related language while the critical camp may pick it up to discuss its merits and shortcomings.
 
 	\subsection*{Environmental Management}
 
+	If impact can be measured in citations, \citet{Hart1995b} should certainly be considered the most influential work. 
+	% \citet{Hart1995b} argues that while resources as defined by \citet{Wernerfelt1984} are important, only an intact natural environment can ensure that a firm can continue to operate.
+	Hart states that Corporations can accomplish sustainable development by reducing consumption of raw material in the North while building marketings in the south with minimal impacts \citep[p. 998]{Hart1995b}.
+
+	% First, we will look at some well-cited works that pick up and build on the WCED definition of sustainability. \citet{Bansal2005} includes the definition in an empirical research paper. 
+	% The article later also adopts related language, e.g., "it is assumed that corporate sustainable development is achieved only at the intersection of the three principles"
+	% "The field of business sustainability applies the principles of sustainable development to the firm level of analysis" \citep[in reference to Bansal, 2005]{Slawinski2015}.
+
 	% \citep{Milne2006}
+
+	% \subsection*{Conclusion}
+
+	% Above, I inadvertently "accused" business sustainability to arrive at corporations agency as a "solution" because that is our turf and what we talk about. Here, I have to disclose for the sake of fairness, that I am biased toward taking the middle ground, both because it follows the findings of \citep{Giddens1979} and--I assume--I am biased toward it because it is the most comfortable position for me to take. So if we seek to depart from a "structure vs agency"-type debate, what route should we take? It is obvious that corporations agency is not the solution to pressing problems such as climate change. At the same time, one can acknowledge partial solutions that corporations have (partly) delivered, such as renewable energy, electric vehicles, and the internet which helps coordination. That doesn't mean that an eventual "solution" needs to be within the confines of the current "system". Solutions offered by corporations can be picked up by other actors. Or other actors can step in to force corporations to do more under the guise of "mutually accepted coercion" (Heilbroner 1974)
+	% \todo{Not the exact wording I think.}
+
+	% That seems like now I am leaning toward the critical way, so here it is more clearly: based on the fact that structures have momentum 
+	% \todo{Forgot the right word here but NVM.}
+	% any future "solution" to climate change--if it comes about at all--will likely be neither entirely based on the agency of corporations, nor will it happen without the involvement of corporations. So the debate is "nice to have" but it is unfortunately detached from reality.
 
 	\clearpage
 	\printbibliography
