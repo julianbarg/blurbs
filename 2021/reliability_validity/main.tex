@@ -1,8 +1,10 @@
 \documentclass{article}
 
-\usepackage[natbibapa]{apacite}
+\usepackage[natbib=true, style=apa]{biblatex}
 \usepackage{hyperref}
 \usepackage{todonotes}
+
+\addbibresource{bibliography.bib}
 
 \title{Reliability and Validity}
 \author{
@@ -45,7 +47,6 @@
 	Just a summary? Spelling out implications for sustainability seems construed? Implications for different fields maybe?
 
 	\clearpage
-	\bibliography{bibliography}
-	\bibliographystyle{apacite}
+	\printbibliography
 
 \end{document}
