@@ -1,0 +1,41 @@
+\documentclass{article}
+
+\usepackage[natbib=true, style=apa]{biblatex}
+% Put float first to avoid some warning
+\usepackage{float}
+% To use toprule
+\usepackage{booktabs}
+\usepackage{parnotes}
+\usepackage{tabularx}
+\usepackage{hyperref}
+
+\addbibresource{bibliography.bib}
+
+\title{Timelines}
+
+\sloppy
+
+\newcommand{\timeline}{\hspace{-2.3pt}$\bullet$ \hspace{5pt}}
+
+% Make is so only year is printed
+\AtEveryBibitem{
+  \clearfield{labelmonth}
+  \clearfield{labelday}
+  \clearfield{labelendmonth}
+  \clearfield{labelendday}
+}
+
+\author{
+	Barg, Julian\\
+	\texttt{jbarg.phd@ivey.ca}
+}
+
+\begin{document}
+	\maketitle
+
+	\input{sections/pipelines}
+
+	\clearpage
+	\printbibliography
+
+\end{document}
