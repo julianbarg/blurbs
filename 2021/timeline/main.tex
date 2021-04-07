@@ -1,21 +1,36 @@
 \documentclass{article}
 
+\usepackage[hyphens]{url}
 \usepackage[natbib=true, style=apa]{biblatex}
 % Put float first to avoid some warning
 \usepackage{float}
 % To use toprule
 \usepackage{booktabs}
-\usepackage{parnotes}
-\usepackage{tabularx}
 \usepackage{hyperref}
+\usepackage{lscape}
+\usepackage{caption}
+\usepackage{tabularx}
+% \usepackage{xltabular}
+\usepackage{parnotes}
 
 \addbibresource{bibliography.bib}
 
+\captionsetup{
+	singlelinecheck = false,
+	justification = raggedright
+}
+
 \title{Timelines}
+\author{
+	Barg, Julian\\
+	\texttt{jbarg.phd@ivey.ca}
+}
 
 \sloppy
 
 \newcommand{\timeline}{\hspace{-2.3pt}$\bullet$ \hspace{5pt}}
+\newcommand{\tabincell}[2]{\begin{tabular}
+{@{}#1@{}}#2\end{tabular}}
 
 % Make is so only year is printed
 \AtEveryBibitem{
@@ -25,19 +40,27 @@
   \clearfield{labelendday}
 }
 
-\author{
-	Barg, Julian\\
-	\texttt{jbarg.phd@ivey.ca}
-}
 
 \begin{document}
 	\maketitle
 
 	\newpage
 
-	\input{sections/maguire_hardy}
-
 	\input{sections/pipelines}
+
+	\section*{Keystone XL}
+
+	\input{sections/keystone}
+
+	\input{sections/xl_permit}
+
+	\input{sections/safety}
+
+	\input{sections/opposition}
+
+	% \input{sections/scientific_discourse}
+
+	% Notes: compared to Maguire and Hardy, pipeline events suggest that the power component and hierarchies in general are much stronger than assumed.
 
 	\clearpage
 	\printbibliography
