@@ -1,0 +1,107 @@
+% \documentclass[tikz,border=5pt]{standalone}
+\documentclass{article}
+
+\usepackage{tikz}
+\usepackage{booktabs}
+\usepackage{lscape}
+\usepackage{caption}
+
+\usetikzlibrary{fit, positioning, graphs}
+
+% \usetikzlibrary{arrows.meta,decorations.pathmorphing,backgrounds,positioning,fit,petri,graphs, matrix,shapes.misc, decorations}
+
+\captionsetup{
+  justification = centering,
+  singlelinecheck = false,
+  % font = tiny
+} % Left align all captions.
+
+\newcommand{\yes}{
+	\begin{tikzpicture}
+		\draw[thick] (0,0) circle (1.3mm);
+		\fill (0,0) circle (0.5mm);
+	\end{tikzpicture}
+}
+
+\newcommand{\no}{\tikz \draw[thick, color=black!50] (0,0) circle (1.3mm);}
+
+\begin{document}
+
+	\tikzstyle{group} = [rectangle, draw=black]
+	\tikzstyle{event} = [rounded corners, draw=black]
+
+	\begin{figure}[ht]
+	\caption{Attempt 1}
+	\begin{tikzpicture}
+		\node 	[group] (g1) 				{Group 1};
+		\node 	[group] (g2) [below=of g1]	{Group 2};
+		\node 	[group] (g3) [below=of g2] 	{Group 3};
+
+		\node 	[event]	(e1) [right=of g1] {Event 1};
+		\node 	[event] (e2) [right=of e1] {Event 2};
+		\node 	[event] (e3) [right=of e2] {Event 3};
+		\node 	[event] (e4) [below=of e3] {Event 4};
+
+		\graph [use existing nodes] {
+			g1 -> e1 -> e2 -> e3;
+			g2 -> e1;
+			g3 -> e2;
+			e2 -> e4;
+		};
+
+		\node (t1) [above=0.5cm of e1] {T=1};
+		\node (t2) [above=0.5cm of e2] {T=2};
+		\node (t3) [above=0.5cm of e3] {T=3};
+	\end{tikzpicture} 
+	\end{figure}
+
+	\begin{figure}[ht]
+	\caption{Attempt 2}
+	\begin{tikzpicture}
+		\node 	[group] (g1) 				{Group 1};
+		\node 	[group] (g2) [below=of g1]	{Group 2};
+		\node 	[group] (g3) [below=of g2] 	{Group 3};
+
+		\node 	[event]	(e1) [right=of g1] 	{Event 1};
+
+		\node 	[group] (g4) [right=of e1] 	{Group 1};
+		\node 	[group] (g5) [below=of g4] 	{Group 2};
+		\node 	[group] (g6) [below=of g5] 	{Group 3};
+
+		\node 	[event] (e2) [right=of g4] 	{Event 2};
+
+		\node 	[group] (g7) [right=of e2] 	{Group 1};
+		\node 	[group] (g8) [below=of g7] 	{Group 2};
+		\node 	[group] (g9) [below=of g8] 	{Group 3};		
+
+		\node 	[event] (e3) [right=of g7] 	{Event 3};
+		\node 	[event] (e4) [below=of e3] 	{Event 4};
+
+		\graph [use existing nodes] {
+			g1 -> e1 -- g4 -> e2 -- g7 -> e4;
+			g2 -> e1 -- g5 -> e2 -- g8 -> e3;
+			g3 -- g6 -> e2 -- g9 -> e3;
+			g9 -> e4;
+		};
+
+		\node (t1) [above=0.5cm of e1] {T=1};
+		\node (t2) [above=0.5cm of e2] {T=2};
+		\node (t3) [above=0.5cm of e3] {T=3};
+	\end{tikzpicture}
+	\end{figure}
+
+	\begin{landscape}
+    \begin{table}[ht]
+    \centering\caption{Attempt 3}
+	\begin{tabular}{r l c c c}
+	\toprule\\
+				& 		& Group 1 	& Group 2 	& Group 3\\
+	\midrule\\
+	Event 1 	&	T1 	& \yes		& \no 		& \yes	 \\
+	Event 2		& 	T2 	& \no 		& \yes		& \no 	 \\
+	Event 3 	& 	T3 	& \no 		& \yes		& \yes 	 \\	
+	\end{tabular}
+	\end{table}
+	\end{landscape}
+
+\end{document}
