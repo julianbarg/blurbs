@@ -6,6 +6,14 @@
 
 \title{Constructing and Deconstructing an Environmental Threat}
 
+% Make is so only year is printed
+\AtEveryBibitem{
+  \clearfield{labelmonth}
+  \clearfield{labelday}
+  \clearfield{labelendmonth}
+  \clearfield{labelendday}
+}
+
 \author{
 	Barg, Julian\\
 	\texttt{jbarg.phd@ivey.ca}
@@ -16,7 +24,19 @@
 
 	\input{sections/introduction}
 
-	\input{sections/structure}
+	\input{sections/deconstruction}
+
+	\input{sections/contestation}
+
+	% \subsection*{Reliability \& Validity}
+	% \section*{Reliability \& Validity}
+
+	% \subsection*{Approach}
+
+	% \begin{itemize}
+	% 	\item Moving from specific context to universal problem--divergence of social world and nature
+	% 	\item Introducing more examples of different processes
+	% \end{itemize}
 
 	\clearpage
 	\printbibliography
