@@ -1,0 +1,32 @@
+%!TEX root = ../main.tex
+
+\newcommand{\timeline}{\hspace{-2.3pt}$\bullet$ \hspace{5pt}}
+
+\newcommand{\rota}[1]{\rotatebox{65}{#1}}
+
+\newcommand{\ye}{
+	\begin{tikzpicture}
+		\draw[thick] (0,0) circle (1.0mm);
+		\fill (0,0) circle (0.4mm);
+	\end{tikzpicture}
+}
+
+\newcommand{\no}{\tikz \draw[thick,color=black!50] (0,0) circle (1.0mm);}
+
+\newcommand{\fu}{
+	\begin{tikzpicture}
+		\draw[->,thick,decorate,decoration={snake,amplitude=0.4mm,segment length=1mm,pre length=0.1mm,post length=0.5mm}] (0,0) -- (0,-0.26);
+		\draw[rounded corners=1pt] (0,0.08) -- (-0.23,-0.28) -- (0.23,-0.28) -- cycle; 
+	\end{tikzpicture}
+}
+
+\newcommand{\hm}{
+	\begin{tikzpicture}
+		\draw[thick] (0,.6mm) arc(90:270:1.0mm);
+		\fill (0,0) arc (90:270:0.4mm);
+	\end{tikzpicture}
+}
+
+\newcolumntype{s}{p{0.3cm}}
+
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}

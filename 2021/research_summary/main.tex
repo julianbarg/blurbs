@@ -1,0 +1,54 @@
+\documentclass{article}
+
+\usepackage[natbib=true, style=apa, alldates=year]{biblatex}
+\usepackage[pdfauthor={Julian Barg},pdftitle={Research Summary}]{hyperref}
+\usepackage{lipsum}
+\usepackage{rotating}
+\usepackage[notablist,tabhead,nofiglist,fighead]{endfloat}
+\usepackage{nameref}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{booktabs}
+
+\usetikzlibrary{decorations.pathmorphing}
+
+\addbibresource{bibliography.bib}
+
+\hyphenation{Trans-Canada}
+
+\title{Research Summary}
+
+\author{
+	Barg, Julian\\
+	\texttt{jbarg.phd@ivey.ca}\\
+	Ivey Business School
+}
+
+\input{sections/commands}
+
+\DeclareDelayedFloatFlavor{sidewaystable}{table}
+
+\sloppy
+
+\begin{document}
+
+	\maketitle
+	\clearpage
+
+	\input{sections/introduction}
+
+	\input{sections/three_studies}
+
+	\input{sections/quant_data}
+
+	\input{sections/data}
+
+	\input{sections/methods}
+
+	% The first study analyses the rhetorical strategies of the pipeline industry from a \textit{greenwashing} perspective \citep{Lyon2015}. The pipeline industry has a generous social license that--hundreds of individual companies are allowed operate facilities that carry enormous risks for the local environment. The US experiences over 100 significant\footnote{The Pipeline and Hazardous Materials Safety Administration describes a pipeline spill as significant if the spill volume exceeds 50 barrels, or one of three other criteria is met--see \url{https://www.phmsa.dot.gov/data-and-statistics/pipeline/pipeline-incident-flagged-files}, accessed 2021-05-12.} pipeline spills every year.\footnote{See \url{https://www.jbarg.net/incident_dashboard.html}, accessed 2021-05-12.} To maintain its social license, and expand its footprint, the industry has to navigate a contradiction. The industry has to present a technology with obvious risks as perfectly controllable and safe. How does the industry, and individual operators navigate this rhetorical challenge?
+
+	\clearpage
+	\printbibliography
+
+\end{document}
