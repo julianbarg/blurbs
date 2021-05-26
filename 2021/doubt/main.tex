@@ -1,0 +1,35 @@
+\documentclass{article}
+
+\usepackage[natbib=true, style=apa, alldates=year]{biblatex}
+\usepackage[pdfauthor={Julian Barg},pdftitle={The Benefit of Doubt}]{hyperref}
+\usepackage{nameref}
+
+\addbibresource{bibliography.bib}
+
+\title{The Benefits of Doubt}
+
+\author{
+	Barg, Julian\\
+	\texttt{jbarg.phd@ivey.ca}\\
+	Ivey Business School
+}
+
+\sloppy
+
+\begin{document}
+
+	\maketitle
+	\clearpage
+
+	\input{sections/introduction}
+
+	\input{sections/literature}
+
+	\input{sections/doubt}
+
+	\input{sections/empirics}
+
+	\clearpage
+	\printbibliography
+
+\end{document}
