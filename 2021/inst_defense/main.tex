@@ -1,0 +1,46 @@
+\documentclass{article}
+
+\usepackage[natbib=true, style=apa, alldates=year]{biblatex}
+\usepackage[pdfauthor={Julian Barg},pdftitle={Institutional Defense}]{hyperref}
+\usepackage{graphicx}
+\usepackage{rotating}
+
+\usepackage{parnotes}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+
+\addbibresource{bibliography.bib}
+
+\title{Institutional Defense}
+
+\author{
+	\texttt{jbarg.phd@ivey.ca}\\
+	Ivey Business School
+}
+
+\sloppy
+
+\begin{document}
+
+	\maketitle
+	\clearpage
+
+	\input{sections/introduction}
+
+	\input{sections/empirical_context}
+
+	\input{sections/actors}
+
+	% \begin{sidewaystable}
+	% 	\caption{Strategic responses}
+
+	% 	\includegraphics[angle=270
+	% 	]{tables/events.png}
+	% \end{sidewaystable}
+
+	\clearpage
+	\section*{References}
+	\printbibliography[heading=none]
+
+\end{document}
