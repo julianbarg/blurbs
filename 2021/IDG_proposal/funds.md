@@ -72,7 +72,7 @@ We will use a confidential transcription service approved by Western University 
 
 *Amount*: $4,078.45
 
-The PI will travel to Washington, DC and Lincoln, NE to interview grassroot organizations and policy makers. Expenses include airfare, car rental, hotels, and meals for 5 days. Calculated in accordance with department rules--most cost effective options available. </br>**Washigton, DC**: airfare $440, hotel $190x4, meals $82.69x5 (daily rate per department guidelines), car rental $115x5.</br>**Lincoln, NE**: airfare $680, hotel $150x4, meals $82.69x5 (daily rate per department guidelines), car rental $100x5.
+The PI will travel to Washington, DC and Lincoln, NE to interview grassroot organizations and policy makers. Expenses include airfare, car rental, hotels, and meals for 5 days. Calculated in accordance with department rules--most cost effective options available. </br>**Washigton, DC**: airfare $440, hotel $190x4, meals $82.69x5 (daily rate per department guidelines), car rental $115x5. </br>**Lincoln, NE**: airfare $680, hotel $150x4, meals $82.69x5 (daily rate per department guidelines), car rental $100x5.
 
 ### Travel and Subsistence for Dissemination
 
@@ -84,6 +84,6 @@ The PI and Co-Investigator (CI) present on Phases One and Two at the annual meet
 
 #### Student(s)
 
-*Amount*: $3,566.90
+*Amount*: $1,783.45
 
-The PhD student will assist PI and CI with the preparation of the paper for AOM 2024 based on Phase One and will also attend the conference. The conference submission and attendance will serve as a training for the academic review process. </br>**AOM in Chicago, IL**: Airfare $530, hotel $210x2x4, meals $82.69x2x5 (daily rate per department guidelines).
+The PhD student will assist PI and CI with the preparation of the paper for AOM 2024 based on Phase One and will also attend the conference. The conference submission and attendance will serve as a training for the academic review process. </br>**AOM in Chicago, IL**: Airfare $530, hotel $210x4, meals $82.69x5 (daily rate per department guidelines).
