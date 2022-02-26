@@ -1,48 +1,37 @@
 # Timeline
 
-Year | Month| Activities
---:	 | :-- 	| ----------------------
-</br>| </br>| **Begin work on Objective one**
-2022 | July	| * Hire Graduate Research Assistants
-</br>| </br>| * Make submission to Research Ethics Board for study one
-</br>| Aug	| * Collect quantitative data
-</br>| </br>| * Begin iterative collection of qualitative data
-</br>| Sept | * Map pipelines, spills, and construction projects in dashboard
-</br>| </br>| * Begin analysis of qualitative data
-</br>| </br>| * Iterative collection of qualitative data continues
-</br>| Oct  | * Publish dashboard of quantitative data via Ivey Energy Centre
-</br>| </br>| * Begin contacting informants for data triangulation, transcribe interviews
-</br>| </br>| * Continue iterative analysis and collection of qualitative data
-</br>| Dec	| * Prepare short paper for workshop and panel submissions based on preliminary insights
-</br>| </br>| * Continue interviews, transcription, and analysis
-2023 | Jan	| * Submit short papers for panels at Academy of Management (AOM) and European Group for Organizational Studies (EGOS)
-</br>| Feb	| * Complete preliminary data analysis
-</br>| </br>| * Begin preparation of draft manuscript with graduate student as co-author
-</br>| Mar  | * Graduate student presents short paper at Western University EnviroCon
-</br>| </br>| </br>
-</br>| </br>| **Begin work on Objective two**
-</br>| </br>| Stage one continues in the background<!-- 
+Month        | Activities
+ ---         | ----------------------
+**2022** June| Anticipatory submission to Research Ethics Board for Phase 1.
+</br>        | **Begin work on Phase 1**
+July	     | * Hire Graduate Research Assistants: 1 Master student and 1 PhD student.
+</br>        | * Collect quantitative data for Phase 1 and map in dashboard.
+</br>        | * Begin iterative collection of qualitative data for Phase 1.
+Aug          | * Begin iterative analysis of qualitative data for Phase 1.
+</br>        | * Begin iteratively contacting informants, transcribe interviews for Phase 1.
+Sept         | * Publish dashboard of quantitative data via Ivey Energy Centre.
+Oct          | * Begin preliminary data analysis and prepare short paper for European Group for Organizational Studies (EGOS) based on preliminary insights from Phase 1, continue iterating.
+Dec          | * Make submission to Research Ethics Board for Phase 2.
+**2023** Jan | * Complete preliminary data analysis for Phase 1 and submit short paper to EGOS with PhD student.
+Feb          | * Begin preparation of full draft manuscript based on Phase 1 with PhD student 1 as co-author.
+</br>        | **Begin work on Phase 2**--Phase 1 continues<!-- 
 </br>| </br>| </br> --> 
-</br>| </br>| * *Study two*: Select final case studies and begin collection of qualitative data
-</br>| April| * *Study two*: Begin analysis of qualitative data
-</br>| </br>| * *Study two*: Iterative collection of qualitative data continues
-</br>| May	| * *Study two*: Begin contacting informants for data triangulation, transcribe interviews
-</br>| </br>| * *Study two*: Continue iterative analysis and collection of qualitative data
-</br>| June | * *Study one*: Submit full paper to EGOS
-</br>| July	| * *Study one*: Present at EGOS conference
-</br>| Aug	| * *Study one*: Discuss central ideas at AOM panel
-</br>| </br>| * *Study one*: Publish comment through Ivey Lawrence National Centre for Policy and Management and Network for Business Sustainability
-</br>| Nov	| * *Study two*: Prepare conference submission with graduate student for AOM and Alliance for Research on Corporate Sustainability
-2024 | Jan	| * *Study one*: Prepare manuscript for journal submission--make edits based on conference discussions at AOM and EGOS
-</br>| </br>| * *Studies one and two*: Submit conference paper to ARCS and EGOS
-</br>| Feb	| * *Study one*: Continue editing for journal submission
-</br>| </br>| * *Study two*: Make conference submissions available through Ivey Centre for Building Sustainable Value, Organizations and the Natural Environments (ONE), etc.
-</br>| Mar  | * *Study one*: Submit to *Administrative Science Quarterly* (ASQ)
-</br>| </br>| * *Study two*: Prepare for journal submission with graduate student as co-author
-</br>| May  | * *Study one and two*: Present at ARCS conference
-</br>| June | * *Study one*: Expect decision from ASQ
-</br>| </br>| * *Study two*: Submit to *Organization Science*
-</br>| Aug  | * *Study one and two*: Present at AOM conference
-</br>| Sept | * *Study two*: Expect decision from *Organization Science*
-</br>| </br>| * *Study one and two*: Share findings with environmental groups and arrange talks to practitioners
-</br>| </br>| * *Study one and two*: Share press release via Ivey Business School channels and engage in media outreach
+</br>        | * Select case studies, begin iterative collection of qualitative data.
+Mar          | * (*Phase 1*) PhD student 1 presents short paper based on Phase 1 at Western EnviroCon.
+</br>        | * Begin iterative analysis of qualitative data.
+April        | * Begin iteratively contacting informants for data triangulation, transcribe interviews for phase 2.
+June         | * (*Phase 1*) EGOS submission based on Phase 1.
+July	     | * (*Phase 1*) Present at EGOS conference with PhD student.
+</br>        | * (*Phase 1*) Publish comment through Ivey Lawrence National Centre for Policy and Management and Network for Business Sustainability.
+Nov	         | * Prepare conference submission for AOM (with PhD student) and Alliance for Research on Corporate Sustainability (ARCS).
+**2024** Jan | * (*Phase 1*) Prepare manuscript for journal submission--make edits based on conference discussions at EGOS.
+</br>        | * Submit conference paper to ARCS and EGOS.
+Feb          | * Make a comment based on conference submissions available through Ivey Centre for Building Sustainable Value, Organizations and the Natural Environments (1), etc.
+Mar          | * (*Phase 1*) Submit to *Administrative Science Quarterly* (ASQ).
+</br>        | * Prepare for journal submission with PhD student 2 as co-author.
+May          | * Present at ARCS conference.
+June         | * (*Phase 1*) Expect decision from ASQ.
+</br>        | * Submit to *Organization Science*.
+Aug          | * Present at AOM conference with PhD student 2.
+Sept         | * Expect decision from *Organization Science*.
+</br>        | * Share findings based on Phases 1 and 2 with environmental groups and arrange talks to practitioners. Engage in media outreach through Ivey channels.
